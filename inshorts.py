@@ -59,7 +59,7 @@ def getNews(category):
             author = None
 
         try:
-            date = card.find(clas='date').text
+            date = card.find(class_='date').text
         except AttributeError:
             date = None
 
